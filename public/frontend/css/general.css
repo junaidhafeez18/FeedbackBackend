@@ -1,0 +1,360 @@
+/*Home Page*/
+.small-ad-banner {
+    width: 100%;
+    height: 130px;
+}
+
+.small-ad-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.large-ad-banner {
+    width: 100%;
+    height: 130px;
+}
+
+.large-ad-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-image {
+    padding-top: 100px;
+    width: 100%;
+}
+
+.slider-image img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.about-section-iframe {
+    height: 350px;
+    width: 100%;
+}
+
+.programs-title {
+    height: 25px;
+    overflow-y: hidden;
+}
+/*Home Page*/
+
+/*Universities Page*/
+/*.universities-bg {*/
+    /*background-image: url("../images/universities-bg.jpeg");*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+/*}*/
+
+.universities-bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background-color: rgba(0,0,0,0.3);*/
+    background-color: #007EC7;
+    z-index: 1;
+}
+
+.universities-bg h1 {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    margin-bottom: 0;
+}
+
+.search-input {
+    height: auto;
+    padding: 0.65rem 1.75rem;
+}
+
+.search-btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0.65rem 0.95rem;
+}
+
+.filter-div {
+    width: 100%;
+    top: 5rem;
+    position: sticky;
+    z-index: 1;
+}
+
+.filter-card {
+    background: #FFFFFF;
+    border: 1px solid rgba(37, 163, 29, 0.2);
+    box-shadow: 0 5px 16px rgba(8, 15, 52, 0.06);
+    border-radius: 4px;
+}
+/*Universities Page*/
+
+/*About Us Page*/
+.about-bg-1 {
+    background-image: url("../images/about/about-bg-1.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.team-heading-div {
+    text-align: center;
+    margin-top: -15px;
+}
+
+.team-heading {
+    background: #FFFFFF;
+    border: 1px solid rgba(37, 163, 29, 0.2);
+    box-shadow: 0 4px 7px rgba(173, 173, 173, 0.2);
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.mission-vision-image {
+    margin: auto;
+    width: 100px;
+    height: 50px;
+}
+
+.mission-vision-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mission-vision-height {
+    height: 150px;
+    overflow-y: hidden;
+}
+/*About Us Page*/
+
+/*Contact Us*/
+.contact-form {
+    padding: 3rem;
+    background: #FFFFFF;
+    box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+    border-radius: 8px;
+}
+/*Contact Us*/
+
+/*Car Insurance*/
+.car-insurance-form-container {
+    background: #FFFFFF;
+    border: 1px solid rgba(37, 163, 29, 0.2);
+    box-shadow: 0 5px 16px rgba(8, 15, 52, 0.06);
+    border-radius: 4px;
+    padding: 3rem;
+}
+
+.car-insurance-type-card {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 2rem;
+    height: 300px;
+}
+/*Car Insurance*/
+
+/*Health Insurance*/
+.health-insurance-form-container {
+    background: #FFFFFF;
+    border: 1px solid rgba(37, 163, 29, 0.2);
+    box-shadow: 0 5px 16px rgba(8, 15, 52, 0.06);
+    border-radius: 4px;
+    padding: 3rem;
+}
+
+.health-insurance-form-type-card {
+    background: #FFFFFF;
+    border: 1px solid rgba(48, 196, 40, 0.3);
+    box-shadow: 0 4px 7px rgba(173, 173, 173, 0.2);
+    border-radius: 4px;
+    padding: 0.7rem 1rem;
+    color: #25A31D;
+    cursor: pointer;
+}
+
+.health-insurance-form-type-card.activate {
+    background: #25A31D;
+    border: 1px solid rgba(48, 196, 40, 0.3);
+    box-shadow: 0 4px 7px rgba(173, 173, 173, 0.2);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+#health-individual-type {
+    background-image: url(../images/health-insurance/form-type-1-white.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+#health-family-type {
+    background-image: url(../images/health-insurance/form-type-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+#health-parent-type {
+    background-image: url(../images/health-insurance/form-type-3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+.add-child-btn {
+    background: #FFFFFF;
+    border: 1px solid rgba(37, 163, 29, 0.2);
+    border-radius: 4px;
+    padding: 0.7rem 1rem;
+}
+
+.health-type-card {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 2rem;
+    height: 300px;
+    border-bottom: 5px solid transparent;
+    cursor: pointer;
+}
+
+.health-type-card.activate {
+    box-shadow: 0 10px 60px rgba(37, 163, 29, 0.08);
+    border-bottom: 5px solid #25A31D;
+}
+/*Health Insurance*/
+
+/*Life Insurance*/
+.life-insurance-form-container {
+    background: #FFFFFF;
+    border: 1px solid rgba(37, 163, 29, 0.2);
+    box-shadow: 0 5px 16px rgba(8, 15, 52, 0.06);
+    border-radius: 4px;
+    padding: 3rem;
+}
+
+.life-type-card {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 2rem;
+    height: 250px;
+}
+/*Life Insurance*/
+
+/*Login*/
+.login-container {
+    background: #FFFFFF;
+    border: 1px solid rgba(37, 163, 29, 0.2);
+    /* Cards/Short Default */
+    box-shadow: 0 5px 16px rgba(8, 15, 52, 0.06);
+    border-radius: 8px;
+}
+/*Login*/
+
+/*Travel Insurance*/
+.travel-insurance-form-container {
+    background: #FFFFFF;
+    border: 1px solid rgba(37, 163, 29, 0.2);
+    box-shadow: 0 5px 16px rgba(8, 15, 52, 0.06);
+    border-radius: 4px;
+    padding: 3rem;
+}
+
+.travel-insurance-form-type-card {
+    background: #FFFFFF;
+    border: 1px solid rgba(48, 196, 40, 0.3);
+    box-shadow: 0 4px 7px rgba(173, 173, 173, 0.2);
+    border-radius: 4px;
+    padding: 0.7rem 1rem;
+    color: #25A31D;
+    cursor: pointer;
+}
+
+.travel-insurance-form-type-card.activate {
+    background: #25A31D;
+    border: 1px solid rgba(48, 196, 40, 0.3);
+    box-shadow: 0 4px 7px rgba(173, 173, 173, 0.2);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.travel-type-card {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 2rem;
+    height: 300px;
+    border-bottom: 5px solid transparent;
+    cursor: pointer;
+}
+
+.travel-type-card.activate {
+    box-shadow: 0 10px 60px rgba(37, 163, 29, 0.08);
+    border-bottom: 5px solid #25A31D;
+}
+
+.travel-insurance-travel-type-card {
+    background: #FFFFFF;
+    border: 1px solid rgba(48, 196, 40, 0.3);
+    box-shadow: 0 4px 7px rgba(173, 173, 173, 0.2);
+    border-radius: 4px;
+    padding: 0.7rem 1rem;
+    color: #3F3F3F;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.travel-insurance-travel-type-card.activate {
+    background: #25A31D;
+    border: 1px solid rgba(48, 196, 40, 0.3);
+    box-shadow: 0 4px 7px rgba(173, 173, 173, 0.2);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+#travel-individual-type {
+    background-image: url(../images/travel-insurance/type-1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+#travel-family-type {
+    background-image: url(../images/travel-insurance/type-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+.travel-insurance-benefit {
+    padding: 2rem;
+}
+
+.travel-insurance-benefit img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+/*Travel Insurance*/
